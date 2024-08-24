@@ -1,0 +1,22 @@
+## Dev Notes - Simple Notes System
+
+## What does the project need to do?
+
+- List notes
+- Show annotation
+- Insert notes
+- Update notes
+- Delete notes
+
+## What is the data structure?
+- Place to store notes
+    - ID
+    - Title
+    - Bodysuit
+
+## What are the endpoints?
+- ( GET )   /api/getall.php
+- ( GET )   /api/get.php - Params: Id
+- ( POST )  /api/insert.php - Params: Title, Body
+- ( PUT )   /api/update.php - Params: Id, Title, Body
+- (DELETE)  /api/delete.php - Params:Id
